@@ -9,4 +9,5 @@ def do_GET(self):
         self.end_headers()
         # Send the html message
         self.wfile.write("transfer +79000000000")
+        self.wfile.write("transfer +89000000000")
         return
